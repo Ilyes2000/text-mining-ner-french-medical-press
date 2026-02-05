@@ -1,0 +1,56 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 96162,
+  "description": "",
+  "download_checksums": {
+    "/Users/ilyessais/Documents/Lab M2/Text Mining & Chatbots/text-mining-chatbots-lab3/TP_ISD2020/notebooks/TP2_NER/../../data/ner_processed/final/emea_train.csv": {
+      "num_bytes": 90375,
+      "checksum": null
+    }
+  },
+  "download_size": 90375,
+  "features": {
+    "review": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "float32",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 186537,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 96162,
+      "num_examples": 706,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
